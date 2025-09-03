@@ -386,6 +386,10 @@ app.use("/.well-known", express.static(path.join(__dirname, ".well-known")));
 //   }
 // });
 
+app.get("/", (req, res) => {
+  res.send("✅ Backend is live. Try /.well-known/assetlinks.json");
+});
+
 // Health check endpoint
 app.get("/health", (req, res) => {
   res.status(200).json({
