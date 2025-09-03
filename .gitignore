@@ -1,0 +1,7 @@
+# Backend sensitive files
+.env
+.env.*
+config/firebase-service-account*.json
+config/secrets.json
+node_modules/
+*.log
