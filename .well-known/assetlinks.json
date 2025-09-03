@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.sunrise.trade",  
+      "package_name": "com.sunrisetrade.app",
       "sha256_cert_fingerprints": [
         "9F:23:5A:...:AA:77:22",
         "1E:48:E7:1C:91:3D:8C:FC:4B:EA:9E:44:9C:20:2D:E3:EE:B5:8A:BA:B9:0F:0C:A3:5D:D1:4B:9A:33:08:0E:E2"
